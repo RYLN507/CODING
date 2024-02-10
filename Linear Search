@@ -16,7 +16,7 @@ search_complete = False
 def linear_search():
     global current_index, found_index, search_complete
     if current_index < len(numbers):
-        if numbers[current_index] == 78:
+        if numbers[current_index] == 43:
             found_index = current_index
             search_complete = True
         current_index += 1
